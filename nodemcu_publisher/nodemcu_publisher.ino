@@ -3,7 +3,7 @@
 
 const char* ssid = "ssid_name";
 const char* password = "password";
-const char* mqtt_server = "192.168.43.41";// Your Raspberry Pi IP address
+const char* mqtt_server = "192.168.XX.XX";     // IP Address of computer running MQTT broker
 
 WiFiClient espClient;
 PubSubClient client(espClient);
